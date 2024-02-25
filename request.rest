@@ -1,0 +1,10 @@
+POST http://localhost:5050/notes
+Content-Type: application/json
+
+{
+    "judul": "Admin",
+    "deskripsi": "Admin"
+}
+
+###
+GET http://localhost:5050/notes
